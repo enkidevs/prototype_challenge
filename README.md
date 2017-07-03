@@ -2,7 +2,6 @@
   author: mihaiberq
   levels:
     - beginner
-  type: normal
   category: must-know
   question: Given an array of Integers, Sort the array in better than O(n log n) time.
   type: code
