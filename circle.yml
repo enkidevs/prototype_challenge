@@ -6,6 +6,7 @@ jobs:
     working_directory: ./challenge
     environment:
         REPO: https://github.com/enkidevs/prototype_challenge
+        REPORTER: JSON
     steps:
       - checkout
       - run:
