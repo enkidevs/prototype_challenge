@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: node:latest
-    working_directory: ./
+    working_directory: ./challenge
     environment:
         REPO: https://github.com/enkidevs/prototype_challenge
     steps:
