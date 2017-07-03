@@ -1,0 +1,25 @@
+{
+  "name": "prototype_challenge",
+  "version": "1.0.0",
+  "description": "author: mihaiberq",
+  "main": "src.js",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "js-yaml": "^3.8.4",
+    "mocha": "^3.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkidevs/prototype_challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enkidevs/prototype_challenge/issues"
+  },
+  "homepage": "https://github.com/enkidevs/prototype_challenge#readme"
+}
