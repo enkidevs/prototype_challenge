@@ -12,5 +12,8 @@ jobs:
           name: Install mocha and chai
           command: npm install mocha chai -g
       - run:
+          name: install local depts
+          command: npm install
+      - run:
           name: Running tests
           command: npm test
