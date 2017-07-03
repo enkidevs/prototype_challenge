@@ -17,4 +17,7 @@ jobs:
           command: npm install
       - run:
           name: Running tests
-          command: curl -X POST https://outstanding-pixie.glitch.me/challengeResults -d `npm test`
+          command: npm test
+      - run:
+          name: Send results
+          command: curl --data result.txt https://outstanding-pixie.glitch.me/challengeResults
