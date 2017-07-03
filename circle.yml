@@ -20,4 +20,4 @@ jobs:
           command: npm test
       - run:
           name: Send results
-          command: curl -X POST --data report.txt https://outstanding-pixie.glitch.me/challengeResults
+          command: curl --data "@./report.txt" https://outstanding-pixie.glitch.me/challengeResults
