@@ -1,24 +1,20 @@
 # Sorted Array
-- author: mihaiberq
-
-- levels:
-
-  - beginner
-
-- type: normal
-
-- category: must-know
-
-- question: Given an array of Integers, Sort the array in better than O(n log n) time.
-- type: code
-- language: javascript
-- topics:
+  author: mihaiberq
+  levels:
+    - beginner
+  type: normal
+  category: must-know
+  question: Given an array of Integers, Sort the array in better than O(n log n) time.
+  type: code
+  language: javascript
+  topics:
   - topic: javascript
     exp: 25
   - topic: algorithms
     exp: 15
   - topic: programming
     exp: 40
+
 
 
 ## Content
