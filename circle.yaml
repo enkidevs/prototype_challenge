@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    working_directory: ./
+    environment:
+      - environment:
+          repo: https://github.com/enkidevs/prototype_challenge
+    steps:
+      - run:
+          name: Running tests
+          command: npm test
