@@ -8,7 +8,9 @@ jobs:
         REPO: https://github.com/enkidevs/prototype_challenge
     steps:
       - checkout
-
+      - run:
+          name: Install mocha and chai
+          command: npm install mocha chai -g
       - run:
           name: Running tests
           command: npm test
